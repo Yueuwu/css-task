@@ -49,14 +49,13 @@
 }
 
 .greetContainer {
-	font-family: 'Barlow';
-
+	font-family: "Barlow";
 }
 
 .large {
-	font-size:x-large;
+	font-size: x-large;
 	font-weight: 500;
-	color: #2A4A5C;
+	color: #2a4a5c;
 }
 
 .small {
@@ -64,7 +63,42 @@
 
 	font-size: medium;
 	font-weight: 400;
-	color: #7B8A92;
+	color: #7b8a92;
+}
+
+.socials {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin-top: 7%;
+
+	font-weight: 200;
+	font-size: medium;
+	color: #fff;
+}
+
+.socialsGeneric {
+	width: 45%;
+	height: 5vmin;
+
+	display: flex;
+	align-items: center;
+
+	padding: 1% 2%;
+
+}
+
+.facebook {
+	background-color: #255a9b;
+}
+.linkedin {
+	background-color: #0076b6;
+}
+
+.linkImg {
+	max-height: 90%;
+	margin-right: 15%;
 }
 
 @media (max-width: 768px) {
@@ -79,5 +113,15 @@
 	.accountContainer {
 		width: 100%;
 		padding: 10% 3%;
+	}
+	.socials {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.socialsGeneric {
+		width: 90%;
+		height: 8vmin;
+		margin-bottom: 4%;
 	}
 }
