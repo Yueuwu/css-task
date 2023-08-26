@@ -8,6 +8,7 @@
 	background-color: #eff6ff;
 
 	padding: 7vmin 5vmin;
+	font-family: "Barlow";
 }
 
 .boxWrapper {
@@ -48,10 +49,6 @@
 	padding: 4% 3%;
 }
 
-.greetContainer {
-	font-family: "Barlow";
-}
-
 .large {
 	font-size: x-large;
 	font-weight: 500;
@@ -86,7 +83,6 @@
 	align-items: center;
 
 	padding: 1% 2%;
-
 }
 
 .facebook {
@@ -99,6 +95,40 @@
 .linkImg {
 	max-height: 90%;
 	margin-right: 15%;
+}
+
+.orContainer {
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+	margin-top: 5%;
+	font-weight: 500;
+	color: #7b8a92;
+}
+
+.orContainer::before {
+	content: "";
+	position: absolute;
+
+	top: 50%;
+	left: 27%;
+	width: 20%;
+	height: 0.5px;
+	
+	background-color: #afafaf;
+}
+
+.orContainer::after {
+	content: "";
+	position: absolute;
+
+	top: 50%;
+	right: 27%;
+	width: 20%;
+	height: 0.5px;
+
+	background-color: #afafaf;
 }
 
 @media (max-width: 768px) {
@@ -123,5 +153,11 @@
 		width: 90%;
 		height: 8vmin;
 		margin-bottom: 4%;
+	}
+	.orContainer::before {
+		left: 24%;
+	}
+	.orContainer::after {
+		right: 24%;
 	}
 }
