@@ -23,14 +23,14 @@
 					</div>
 					<div class="registrationContainer">
 						<div class="socials">
-							<div class="socialsGeneric facebook">
+							<button class="socialsGeneric facebook">
 								<img class="linkImg" src="./img/facebook.svg" />
 								Register with Facebook
-							</div>
-							<div class="socialsGeneric linkedin">
+							</button>
+							<button class="socialsGeneric linkedin">
 								<img class="linkImg" src="./img/linkedin.svg" />
 								Register with LinkedIn
-							</div>
+							</button>
 						</div>
 						<div class="orContainer">
 							<div class="or">OR</div>
@@ -59,32 +59,36 @@
 									class="checkmark"
 									name="type"
 									type="radio"
+									id="individual"
 								/>
-								<label class="checkLabel">Individual</label>
+								<label for="individual" class="checkLabel">Individual</label>
 							</div>
 							<div class="checkWrapper">
 								<input
 									class="checkmark"
 									name="type"
 									type="radio"
+									id="business"
 								/>
-								<label class="checkLabel">Business</label>
+								<label for="business" class="checkLabel">Business</label>
 							</div>
 							<div class="checkWrapper">
 								<input
 									class="checkmark"
 									name="type"
 									type="radio"
+									id="IRA"
 								/>
-								<label class="checkLabel">IRA</label>
+								<label for="IRA" class="checkLabel">IRA</label>
 							</div>
 							<div class="checkWrapper">
 								<input
 									class="checkmark"
 									name="type"
 									type="radio"
+									id="trust"
 								/>
-								<label class="checkLabel">Trust</label>
+								<label for="trust" class="checkLabel">Trust</label>
 							</div>
 						</div>
 						<div class="infoContainer">
@@ -96,6 +100,7 @@
 								class="agreeCheck"
 								type="checkbox"
 								name="agree"
+								id="agree"
 							/>
 							<label class="agreeLabel" for="agree"
 								>I agree to the terms and receiving

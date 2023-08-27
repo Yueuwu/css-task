@@ -69,10 +69,6 @@
 	justify-content: space-between;
 
 	margin-top: 7%;
-
-	font-weight: 200;
-	font-size: medium;
-	color: #fff;
 }
 
 .socialsGeneric {
@@ -83,6 +79,10 @@
 	align-items: center;
 
 	padding: 1% 2%;
+
+	font-weight: 200;
+	font-size: medium;
+	color: #fff;
 }
 
 .facebook {
@@ -240,6 +240,8 @@
 
 	font-weight: 500;
 	color: #000;
+
+	cursor: pointer;
 }
 
 .infoContainer {
@@ -261,10 +263,17 @@
 
 	margin-top: 4%;
 	font-weight: 300;
+
 }
 
 .agreeCheck {
 	margin-right: 1%;
+
+	cursor: pointer;
+}
+
+.agreeLabel {
+	cursor: pointer;
 }
 
 .createBtn {
